@@ -1,0 +1,446 @@
+          
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+
+          *{
+               padding: 0px;
+               margin: 0px;
+           }
+
+           body{
+               background-color: rgb(216, 214, 214);
+           }
+           .bg{
+               background-image:   linear-gradient(rgba( 0,0,0,0.6) ,rgba( 0,0,0,0.6)),url(./images/bg.png);   
+               background-size: cover;
+               
+               color: aliceblue;
+           }
+          
+          .container{
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          height: 980%;
+          width: 100vw;
+          padding-top: 20px;
+                    
+          }
+          .buttons{
+               padding-top: 40px;
+               display: flex;
+               justify-content: space-between;
+               
+          }
+          nav ul li:hover{
+               cursor: pointer;
+               background-color: rgb(167, 218, 51);
+          }
+          
+
+          /* button */
+
+
+          .btn1{
+               height: 40px;
+               border-radius: 20px;
+               background-color: rgb(45, 114, 218);
+               padding: 10px;
+               border: hidden;
+               font-weight: bold;
+          }
+          .mem:hover{
+               background-color: rgb(167, 218, 51);
+
+          }
+          .btn2{
+               height: 40px;
+               gap: 5px;
+               background: none;
+               padding: 10px;
+               border-radius: 20px;
+               border: 2px solid whitesmoke;        
+               font-weight: bold;
+               color: whitesmoke;
+          }
+          .btn2:hover{
+               cursor: pointer;
+              background-color:  rgb(167, 218, 51);
+
+          }
+          .btn1:hover{
+               cursor: pointer;
+               background-color:  rgb(167, 218, 51);
+ 
+           }
+          .buttons{
+               padding-top: 60px;
+               display: flex;
+               flex-direction: row;
+               gap: 30px;
+          }
+          .mem{ background-color: rgb(45, 114, 218);
+               height: 40px;
+               border-radius: 10px;
+               padding: 10px;
+               border: hidden;
+               font-weight: bold;
+          }
+
+          .content{
+
+               display: flex;
+               align-items: center;
+               gap: 20px;
+               width: 98vh;
+
+          }
+
+          nav{
+               display: flex;
+               align-items: center;
+               justify-content: space-evenly;
+          
+               padding-top: 40px;
+               font-weight: bold;
+               padding-bottom: 20px;
+               
+          }
+.book:hover{
+     background-color:  rgb(167, 218, 51);
+     cursor: pointer;
+}
+          .contact:hover{
+                background-color:  rgb(167, 218, 51);
+                cursor: pointer;
+ 
+          }
+          .try:hover{
+               cursor: pointer;
+               background-color:  rgb(167, 218, 51);
+          }
+nav:hover{
+     cursor: pointer;
+     
+}
+
+          li{
+               list-style: none;
+               display: inline;
+               padding: 10px;
+          }
+
+          .expalanation{
+          padding: 100px;
+               display: flex;
+               align-items: center;
+               flex-direction: column;
+               justify-content: space-evenly;
+               
+          }
+          .first{
+               margin-top: -50px;
+               display: flex;
+               flex-direction: row;
+               padding-top: 0px; 
+               color: black;
+               height: 50%; 
+               justify-content: space-evenly; 
+               
+          }
+
+          .second{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-evenly;
+               padding-top: 40px;
+          
+               box-shadow: inset;
+
+          }
+          
+
+          h1{
+               font-weight: bold;
+          }
+
+          .satisfaction{
+               background-color: rgb(45, 114, 218);
+               padding: 20px;
+          }
+          .set{
+          background-color: whitesmoke;
+               padding: 20px;
+          }
+          .peace{
+
+               padding: 20px;
+          }
+
+
+          .industry{
+          display: flex;
+          flex-direction: column;
+          margin: auto;
+          padding-top: 40px;
+          align-items: center;
+
+          }
+
+          .members{
+
+               display: flex;
+               flex-direction: row;
+               
+               padding-top: 40px;
+               justify-content: space-evenly;
+               
+          }
+          .member1{
+               display: flex;
+               align-items: center;
+               flex-direction: column;
+               justify-content: center;    
+          
+          }
+          .member2{
+               display: flex;
+               align-items: center;
+               flex-direction: column;
+               justify-content: center;    
+          
+          }
+          .member3{
+               display: flex;
+               align-items: center;
+               flex-direction: column;
+               justify-content: center;    
+          
+               
+          }
+          .logos{
+               display: flex;
+               flex-direction: row;
+               gap: 120px;
+               justify-content: space-between;
+               margin: auto;
+               align-items: center;
+               padding: 20px;
+          
+          
+          }
+          .subcriber{
+               margin-left: -200;
+          }
+          .input1{
+               display: flex;
+               box-shadow: none;
+               height: 40px;
+               border-radius: 5px;
+               width: 40%;
+               align-items: flex-end;
+          }
+
+
+          .social{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-evenly;
+               align-items: flex-end;
+          }
+          .subscribe{ width: 85%;
+               background-color: hsl(266, 84%, 26%)  hsl(300, 83%, 26%);
+               display: flex ;
+               color: whitesmoke;
+               background-image: linear-gradient(90deg,#400080,#7300e6, #e60073);
+               flex-direction: row;
+               margin-left: 120px;
+               align-items: center;
+          justify-content:space-evenly;
+          }
+          .pricing{
+               padding-top: 30px;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               
+               
+
+
+          }
+          .cards{
+               padding-top: 70px;
+               display: flex;
+               
+               gap: 5px;
+               flex-direction: row;
+               justify-content: center;
+               align-items: center;
+          }
+          .free{
+               
+               border-radius: 10px;
+               border: 2px solid rgb(45, 114, 218);
+               height: 400px;
+               justify-content: space-evenly;
+               align-items: center;
+               display: flex;
+               flex-direction: column;
+               margin: auto;
+          }
+          .try{
+               height: 15%;
+               border-radius: 10px;
+               padding: 10px;
+               background-color: rgb(45, 114, 218);
+               font-weight: bold;
+               color: white;
+               border-style: hidden;
+
+          }
+          .Premium{
+               
+               border-radius: 10px;
+               border: 2px solid rgb(45, 114, 218);
+               height: 400px;
+               justify-content: space-evenly;
+               align-items: center;
+               display: flex;
+               flex-direction: column;
+               margin: auto;
+          }
+          .standard{
+               color: aliceblue;
+               padding-block-start: 40px;
+               background-color: rgb(1, 1, 27);
+               border-radius: 10px;
+               border: 2px solid rgb(45, 114, 218);
+               height: 400px;
+               
+               
+               justify-content: space-evenly;
+               align-items: center;
+               display: flex;
+               flex-direction: column;
+               margin: auto;
+          }
+          .branch{
+          padding-top: 40px;
+          display: flex;
+          width: 100%;
+          height: 400px;
+          background-color: rgb(14, 14, 92);
+          flex-direction: row;
+          
+          justify-content: space-evenly;  }
+    
+
+          
+          .we{
+              
+               color: aliceblue;
+               height: 200px;
+               justify-content: space-evenly;
+               align-content: center;
+               display: flex;
+               flex-direction: column;
+          }
+          .con{
+               display: flex;
+               flex-direction: column;
+          
+          }
+          .secondlast{
+               display: flex;
+               flex-direction: row;
+               padding-top: 30px;
+               justify-content: space-around;
+          
+          }
+
+          .companyinfo{
+               display: flex;
+               flex-direction: column;
+
+          }
+
+
+          .legal{
+               display: flex;
+               flex-direction: column;
+               
+          }
+          .features{
+               display: flex;
+               flex-direction: column;
+               
+          }
+          .resources{
+               display: flex;
+               flex-direction: column;
+               
+          }
+          .companyinfo{
+               display: flex;
+               flex-direction: column;
+               
+          }
+          .touch{
+               display: flex;
+               flex-direction: column;
+               
+          }
+          .footer{
+               padding-top: 40px;
+               display: flex;
+               flex-direction: row;
+               
+               justify-content: space-evenly;
+               
+          }
+
+          .contact{
+               padding-left: 80px;
+               height: 30%;
+               padding: 10px;
+               border-radius: 5px;
+               background-color:rgb(45, 114, 218) ;
+               border-style: hidden;
+
+          }
+          .book{
+               justify-content: space-between;
+               height: 25%;
+               background-color: whitesmoke;
+               padding: 10px;
+               border-style: hidden;
+               border-radius: 5px;
+               background-color:rgb(45, 114, 218) ;
+          }
+          .boom{
+               display: flex;
+               flex-direction: column;
+               gap: 20px;
+               margin: auto;
+               padding: 40px;
+               align-items: flex-start;
+               justify-content: space-around;
+          
+          }
+          .formdiv{
+             
+               display: flex;
+               flex-direction: row;
+               margin-top: -200px;
+               align-items: center;
+               justify-content: center;
+               
+          }
+          .copyright{
+           padding-top: 30px;
+           display: flex;
+
+           align-items: center;
+           justify-content: space-around
+           
+          }
